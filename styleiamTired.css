@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Fragment Mono', monospace;
+    background-image:url(2.png);
+    background-size: cover;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.johncena {
+    color: transparent;
+    font-size: 2px;
+}
+.head {
+    color: grey;
+}
+.cutiemark {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.link {
+    padding: 8px 8px 8px 8px;
+    background-color: #b9cfe6;
+    border-radius: 20px;
+    color: rgb(27, 27, 27);
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.link:hover {
+    background-color: transparent;
+    color: white;
+}
+.link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+.link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.img-fluid {
+    max-height: 100px;
+    max-width: 100px;
+}
+.truesfriends {
+    height: 40px;
+    width: 40px;
+}
+.iconbar {
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.atruetruefriend {
+    margin-top: 70px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-image: url(bomnk.png);
+    background-size: cover;
+    border-width: 2px;
+    border-color: #DEDEDE;
+    border-style: solid;
+    border-radius: 10px;
+}
+.headpt2idkanymore {
+    background-color: #45556b;
+    color:white;
+    border-radius: 10px;
+    padding:5px 5px 5px 5px;
+}
+.btn-group {
+    height: 30px;
+}
+.btn-idkwhatthisis {
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    border-color: grey;
+}
+.btn-idkwhatthisis:hover {
+    background-color: #45556b;
+    border-color: white;
+    color: rgb(50, 50, 50)
+}
+.btnnanasatab1 {
+    background-color: white;
+    border-color: #d9d9d9;
+    color: #d9d9d9;
+    border-radius: 50%;
+}
+.btnnanasatab2 {
+    background-color: white;
+    border-color: #d9d9d9;
+    color: #292828;
+    border-radius: 50%;
+}
+.btnnanasatab3 {
+    background-color: white;
+    border-color: #d9d9d9;
+    color: #827f7f;
+    border-radius: 50%;
+}
+.btnnanasatab4 {
+    width: 70%;
+    background-color: white;
+    border-color: #d9d9d9;
+    color: #827f7f;
+    border-radius: 20px;
+    padding-left: 10px;
+    align-items:start;
+}
+.material-symbols-outlined {
+    font-size: 15px;
+}
+.nav-tabs {
+    padding-left: 5px;
+}
+.nav-item {
+    background-color: #A8B0BE !important;
+    transition: 0.3s;
+    font-size:15px;
+    border-radius:7px;
+    -ms-transform: skewX(-9deg);
+    -webkit-transform: skewX(-9deg);
+    transform: skewX(-9deg);
+}
+.nav-item-content {
+    color:#343737 !important;
+    -ms-transform: skewX(9deg);
+    -webkit-transform: skewX(9deg);
+    transform: skewX(9deg);  
+    display: inline-block;
+}
+.nav-item:hover {
+    font-size: 17px;
+    background-color: #e8c1ca;
+    color:#959dab !important;
+}
+.tab-content {
+    width: 840px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #A8B0BE;
+    padding-top:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.yeet {
+    color: white;
+}
+.searchbarthingy {
+    background-color: #A8B0BE;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px 0px 0px;
+    width: 840px;
+}
+.sohelpmegod {
+    border-color: grey; 
+    border-width: 2px; 
+    border-style:solid; 
+    border-radius: 10px;
+}
+.header {
+    text-align: center;
+    padding: 32px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.column img {
+    margin-top: 12px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
